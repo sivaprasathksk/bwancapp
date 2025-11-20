@@ -1,0 +1,7 @@
+name,address,protocl,port
+app1;192.168.1.1;tcp;80
+app1;192.168.1.2;udp;443
+app1;192.168.1.3;any;*
+app2;192.168.2.0/24;any;8080
+app3;www.example.com;tcp;80
+app3;www.example1.com;tcp;90,300,4000
